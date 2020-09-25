@@ -3,11 +3,6 @@
     box-sizing: border-box;
   }
 
-  body {
-    background: url('../TLAbackground.jpg') no-repeat center center;
-    opacity: .95;
-  }
-
   h1 {
     margin-bottom: 15px;
     text-align: center;
@@ -29,6 +24,18 @@
     background-color: #B28C6E;
     position: relative;
     border-radius: 10px;
+    font-size: inherit;
+  }
+
+  .bg {
+    background-image: url("../TLAbackground.jpg");
+    opacity: .95;
+
+    height: 100%;
+  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   ul {
