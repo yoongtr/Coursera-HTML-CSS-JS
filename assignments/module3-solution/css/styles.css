@@ -1,0 +1,160 @@
+body {
+    font-size: 16px;
+    color: #fff;
+    background-color: #0b0c10;
+    font-family: 'Orbitron', 'Quicksand', sans-serif;
+  }
+  
+  .bg {
+    background-image: url("../images/portrait1.jpg");
+    opacity: .95;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  footer {
+    text-align: center;
+    font-family: 'Orbitron', 'Quicksand', sans-serif;
+    font-size: 90%;
+    margin: 50px;
+
+  }
+  /** HEADER **/
+  #header-nav {
+    background-color: #45a29e;
+    padding-bottom: 50px;
+    border-radius: 0;
+    border: 0;
+  }
+  
+  #logo-img {
+    background: url('../images/restaurant-logo_large.png') no-repeat;
+    width: 150px;
+    height: 150px;
+    margin: 10px 15px 10px 0;
+  }
+  
+  .navbar-brand {
+    padding-top: 15px;
+  }
+  
+  .navbar-brand h1 { /* Restaurant name */
+    font-family: font-family: 'Audiowide', cursive;
+    color: #1f2833;
+    font-size: 200%;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+    padding-top:10px;
+  }
+  .navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+  }
+  
+  #nav-list {
+    margin-top: 0px;
+    background: #c5c6c7;
+  }
+  #nav-list a {
+    font-family: 'Audiowide', cursive;
+    color: black;
+    text-align: center;
+    font-size: 2.0em;
+  }
+  #nav-list a:hover {
+    background: #E7E7E7;
+  }
+  #nav-list a span {
+    font-size: 1.8em;
+  }
+  
+  .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #0b0c10;
+  }
+  .navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+  }
+  
+  hr {
+    border: 1px solid black;
+  }
+  ul#nav-list li a#collapsable-words {
+    font-size: 3vw;
+  }
+
+  
+  /* END HEADER */
+  
+  /* HOME PAGE */
+  .container .jumbotron {
+    box-shadow: 0 0 50px #856348;
+    border: 2px solid #c7beac;
+  }
+  #homepage-title { /*our menu*/
+    font-family: 'Audiowide', cursive;
+    color: #66fcf1;
+    font-size: 10vw;
+    text-shadow: 7px 7px 7px #000;
+  }
+  #menu-tile, #specials-tile, #map-tile {
+    height: 250px;
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+    border: 2px solid #ebe9e4;
+    overflow: hidden;
+  }
+  #menu-tile:hover, #specials-tile:hover, #map-tile:hover {
+    box-shadow: 0 1px 5px 1px #cccccc;
+  }
+  
+  #menu-tile {
+    background: url('../images/menu-tile.jpg') no-repeat;
+    background-position: center;
+  }
+  #specials-tile {
+    background: url('../images/specials-tile.jpg') no-repeat;
+    background-position: center;
+  }
+  
+  #menu-tile span, #specials-tile span, #map-tile span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    background-color: #c7beac;
+    color: #000;
+    opacity: .8;
+  }
+
+  #menu-content {
+    background: #1f2833;
+    text-align: left;
+    padding: 20px;
+    padding-bottom: 50px;
+ 
+  }
+
+  #menu-wrapper {
+    margin: 20px;
+  }
+  
+  #back-button {
+    background-color: #1f2833;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+  }
+  /* END HOME PAGE */
+  
+  
+  
